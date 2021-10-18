@@ -19,7 +19,7 @@ const Header = () => {
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark py-3 mb-3">
                 <div className="container-fluid justify-content-center" style={{ position: "relative" }}>
 
-                    <span className=" navbar-brand mb-0   fst-italic fw-bolder" >Gallery</span>
+                    <NavLink className=" navbar-brand mb-0   fst-italic fw-bolder" to='/'>Gallery</NavLink>
 
                     <form onSubmit={submitSearch} className="d-flex">
                         
