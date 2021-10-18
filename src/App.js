@@ -13,8 +13,8 @@ const App = () => {
   return (
     < >
       <Header />
-        <Route exact path="/"><Dashboard /></Route>
       <Switch>
+        <Route exact path="/"><Dashboard /></Route>
         <Route  path="/images/:id" component={ImageData}></Route>
       </Switch>
       <Footer />
