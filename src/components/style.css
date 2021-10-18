@@ -1,0 +1,37 @@
+.navbarTag{
+    color:white !important;
+    font-weight: bold;
+
+}
+.imageCol{
+    columns:4;
+}
+.inputTag{
+    width:20rem;
+}
+.imgSelect{
+    height:32rem;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .imageCol{
+        columns:3;
+    }
+
+}
+@media (min-width:576px) and (max-width: 765px) {
+    .imageCol{
+        columns:2;
+    }
+}
+@media (max-width: 575px) {
+    .imageCol{
+        columns:1;
+    }
+    .inputTag{
+        width:100%;
+    }
+    .imgSelect{
+        height:20rem;
+    }
+}
