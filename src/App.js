@@ -16,6 +16,8 @@ const App = () => {
       <Switch>
         <Route exact path="/"><Dashboard /></Route>
         <Route  path="/images/:id" component={ImageData}></Route>
+        <Redirect to="/" />
+
       </Switch>
       <Footer />
     </>
