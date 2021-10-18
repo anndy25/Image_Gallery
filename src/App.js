@@ -13,9 +13,9 @@ const App = () => {
   return (
     < >
       <Header />
-      <Switch>
         <Route exact path="/"><Dashboard /></Route>
-        <Route exact path="/images/:id" component={ImageData}></Route>
+      <Switch>
+        <Route  path="/images/:id" component={ImageData}></Route>
       </Switch>
       <Footer />
     </>
